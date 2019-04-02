@@ -82,8 +82,8 @@ function contains(item, list, cb) {
   }
 }
 
-contains("Pencil", items, function(searching)) {
-  console.log(searching)
+contains("Pencil", items, function(searching) {
+  console.log(searching);
 })
 
 /* STRETCH PROBLEM */
